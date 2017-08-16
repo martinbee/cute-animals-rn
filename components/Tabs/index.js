@@ -1,14 +1,25 @@
 import React from 'react';
 import { TabNavigator } from 'react-navigation';
+import { Icon } from 'react-native-elements';
 
-import Search from '../Search;'
+import Search from '../Search'
 import AnimalList from '../AnimalList';
 
-export const Tabs = TabNavigator({
+const Tabs = TabNavigator({
   AnimalList: {
     screen: AnimalList,
+    navigationOptions: {
+      tabBarLabel: 'Animal List',
+      tabBarIcon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
+    },
   },
   Search: {
     screen: Search,
+    navigationOptions: {
+      tabBarLabel: 'Search',
+      tabBarIcon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
+    },
   },
 });
+
+export default Tabs;
