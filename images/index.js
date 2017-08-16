@@ -1,7 +1,7 @@
 export default [
   {
     uri: "https://i.imgur.com/mxgtWKt.jpg",
-    label: "Cat on a blue blanket"
+    label: "Cat in a pant leg"
   },
   {
     uri: "https://i.imgur.com/XCRnNWn.jpg",
@@ -13,14 +13,14 @@ export default [
   },
   {
     uri: "https://i.imgur.com/nZXbSbh.jpg",
-    label: "Sheep next to a cat"
+    label: "Pups in a circle"
   },
   {
     uri: "https://i.imgur.com/mXCjefR.jpg",
-    label: "Cat laying on the grass"
+    label: "Bunnies in the wild"
   },
   {
     uri: "https://i.imgur.com/AGyxRcc.jpg",
-    label: "Bird sitting on a railing"
+    label: "Buns and birds sitting on a railing"
   }
 ];
